@@ -11,4 +11,4 @@ This is a simple product management application that allows you to add, update, 
 
 ## Live Demo
 
-You can try the live demo of the application [here](https://your-live-demo-link.com).
+You can try the live demo of the application [here](https://product-managment-application.netlify.app/).
