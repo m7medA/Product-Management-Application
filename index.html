@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Management Application</title>
+</head>
+<body>
+    
+    <div class="contianer">
+        
+        
+        <label for="name">Product Name:</label>
+        <input type="text" id="name">
+
+        <label for="price">Product Price:</label>
+        <input type="text" id="price">
+
+        <label for="category">Product Category:</label>
+        <input type="text" id="category">
+
+        <label for="desc">Product Description:</label>
+        <textarea name="" id="desc"></textarea>
+
+        <button id="mainBtn" onclick="addProduct(allProduct)" >Add</button>
+
+    </div>
+
+    <div class="search">
+        <input type="text" id="search" placeholder="search" >
+        <button onclick="searchPro(productSearch.value)" style="display: block; background-color: cadetblue;  margin: auto; margin-top: 10px;">Search</button>
+    </div>
+
+    <div class="down">
+
+        <table id="table" cellpadding="5px">
+            <thead id="thead">
+                <tr>
+                    <th>index</th>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    <th>Product Category</th>
+                    <th>Product Description</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody">
+                
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
